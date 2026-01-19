@@ -31,7 +31,19 @@ postman request 'http://localhost:8080/realms/demo/protocol/openid-connect/useri
   This call to be successful use a `Scope:openid`. To refresh token, you might click `Refresh`:
   ![refresh](./Img/Expired_token.jpg)
 
-  There is a postman collection with all these examples in a folder `Postman Collection`.
+  ```
+  {
+    "sub": "45ab36a4-5b56-494c-a6ed-6d9c899f0f5f",
+    "email_verified": true,
+    "name": "Test Test",
+    "preferred_username": "test@test.com",
+    "given_name": "Test",
+    "family_name": "Test",
+    "email": "test@test.com"
+}
+  ```
+
+There is a postman collection with all these examples in a folder `Postman Collection`.
 
 Info is about jwt:
 
